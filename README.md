@@ -1,2 +1,2 @@
-# foodbank
-Resources to automate printing labels for a foodbank
+# Foodbank
+Simple resource to automate printing labels for a foodbank, using pillow (NB this requires the font definition file GFSArtemisia.otf is locally available). It is assumed that one appropriately formatted spreadsheet exists in the target directory; the script will then create the appropriate subdirectories for the image files corresponding to individual address labels and the PDF, which is a two-by-eight grid of collated labels.
